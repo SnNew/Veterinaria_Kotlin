@@ -8,8 +8,8 @@ open class Mascota(
         peso = nuevoPeso
     }
 
-    fun incrementarEdad() {
-        edad++
+    fun actualizarEdad(nuevaEdad: Int) {
+        edad = nuevaEdad
     }
 
     open fun describirMascota(): String {
